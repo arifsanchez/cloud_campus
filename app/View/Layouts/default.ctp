@@ -43,14 +43,30 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+
+		echo $this->Html->meta(
+		    'keywords',
+		    'cloud campus, cloud campus management system, cloud solution, cloud management system'
+		);
+
+		echo $this->Html->meta(
+		    'descriptions',
+		    'Cloud Campus is a cloud based application to manage business data for university , college, school and kindergarden.'
+		);
+
+		echo $this->Html->meta(
+		    'author',
+		    'Mior Mohd Arif Mior Zamri'
+		);
+
 	?>
 </head>
 <body>
 	<div class="container">
 		<div class="content">
 			<div class="page-header">
-		    	<h1><img class="retina-ready" width="144" height="78" alt="" src="<?php echo SITE_URL;?>/img/logo.png">
-		    		<a href="<?php echo SITE_URL;?>"><?php echo SITE_NAME ?></a><small> Management System</small></h1>
+		    	<h1><img class="hidden-phone" width="144" height="78" alt="" src="<?php echo SITE_URL;?>/img/logo.png">
+		    		<a href="<?php echo SITE_URL;?>"><?php echo SITE_NAME ?></a><small> Management App</small></h1>
 		    </div>
 			<?php echo $this->element('Usermgmt.message'); ?>
 			<?php echo $this->element('Usermgmt.message_validation'); ?>
