@@ -1,36 +1,44 @@
-<?php
-/**
- *
- * PHP 5
- *
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-
-$cakeDescription = __d('cake_dev', 'Cloud Campus : Open Framework');
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<?php echo $this->Html->charset(); ?>
-	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
-	</title>
+	<title>Cloud Campus</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script language="javascript">
+		var urlForJs="<?php echo SITE_URL ?>";
+	</script>
 	<?php
 		echo $this->Html->meta('icon');
+		/* Bootstrap CSS */
+		#echo $this->Html->css('bootstrap.css?q='.QRDN); // default bootstrap theme
+		echo $this->Html->css('bootstrap.bluewave.css?q='.QRDN); // blue + white theme
+		#echo $this->Html->css('bootstrap.superhero.css?q='.QRDN); // dark green + orange theme
+		echo $this->Html->css('bootstrap-responsive.css?q='.QRDN);
+		
+		/* Usermgmt Plugin CSS */
+		echo $this->Html->css('/usermgmt/css/umstyle.css?q='.QRDN);
+		
+		/* Jquery UI CSS taken from http://jqueryui.com */
+		echo $this->Html->css('/usermgmt/css/jquery-ui-1.10.2.custom.min');
+		
+		/* Jquery Datetime addon taken from http://trentrichardson.com */
+		echo $this->Html->css('/usermgmt/css/jquery-ui-timepicker-addon');
+		
+		/* Jquery latest version taken from http://jquery.com */
+		echo $this->Html->script('/usermgmt/js/jquery-1.9.1');
+		
+		/* Jquery UI JS taken from http://jqueryui.com */
+		echo $this->Html->script('/usermgmt/js/jquery-ui-1.10.2.custom.min');
+		
+		/* Jquery Datetime addon taken from http://trentrichardson.com */
+		echo $this->Html->script('/usermgmt/js/jquery-ui-timepicker-addon');
 
-		echo $this->Html->css('cake.generic');
+		/* Usermgmt Plugin JS */
+		echo $this->Html->script('/usermgmt/js/umscript.js?q='.QRDN);
+
+		/* Bootstrap JS */
+		echo $this->Html->script('bootstrap.js?q='.QRDN);
+
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -38,25 +46,16 @@ $cakeDescription = __d('cake_dev', 'Cloud Campus : Open Framework');
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cloudcampus:8888/'); ?></h1>
-		</div>
-		<div id="content">
-
-			<?php echo $this->Session->flash(); ?>
-
+	<div class="container">
+		<div class="content">
+			<div class="page-header">
+		    	<h1><a href="<?php echo SITE_URL;?>">Cloud Campus</a><small> Management System</small></h1>
+		    </div>
+			<?php echo $this->element('Usermgmt.message'); ?>
+			<?php echo $this->element('Usermgmt.message_validation'); ?>
 			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
+			<div style="clear:both"></div>
 		</div>
 	</div>
-	<?php #echo $this->element('sql_dump'); ?>
 </body>
 </html>
