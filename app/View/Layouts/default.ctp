@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php echo $this->Html->charset(); ?>
-	<title>Cloud Campus</title>
+	<title><?php echo SITE_NAME ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script language="javascript">
 		var urlForJs="<?php echo SITE_URL ?>";
@@ -49,7 +49,8 @@
 	<div class="container">
 		<div class="content">
 			<div class="page-header">
-		    	<h1><a href="<?php echo SITE_URL;?>">Cloud Campus</a><small> Management System</small></h1>
+		    	<h1><img class="retina-ready" width="144" height="78" alt="" src="<?php echo SITE_URL;?>/img/logo.png">
+		    		<a href="<?php echo SITE_URL;?>"><?php echo SITE_NAME ?></a><small> Management System</small></h1>
 		    </div>
 			<?php echo $this->element('Usermgmt.message'); ?>
 			<?php echo $this->element('Usermgmt.message_validation'); ?>
