@@ -1,0 +1,339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"root",
+				"root"
+			],
+			[
+				"nullale",
+				"nullable"
+			],
+			[
+				"account_",
+				"account_selection"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"e_od",
+				"e_oldpass"
+			],
+			[
+				"jQuery",
+				"JQuery"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/me/Sites/cloudcampus/README.md",
+		"/Users/me/Sites/fxsdesk/app/View/Layouts/public.access.ctp",
+		"/Users/me/Sites/fxsdesk/app/webroot/css/plugins/jquery-ui/smoothness/jquery.ui.theme.css",
+		"/Users/me/Sites/fxsdesk/app/View/Layouts/default.ctp",
+		"/Users/me/Sites/fxsdesk/app/View/Layouts/staff.dashboard.ctp",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/94BC6D8D-EAD0-497E-A4E9-2323F07EDFFE/index.php",
+		"/Users/me/Sites/fxsdesk/resources/flat-responsive-admin-template/html/index.html",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Users/register.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Elements/message.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Users/forgot_password.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Users/email_verification.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Users/login.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/Controller/UsersController.php",
+		"/Users/me/Sites/fxsdesk/app/Config/routes.php",
+		"/Users/me/Sites/fxsdesk/app/Controller/DesksController.php",
+		"/Users/me/Sites/fxsdesk/app/View/Desks/signsecure.ctp",
+		"/Users/me/Sites/fxsdesk/app/View/Layouts/login.ctp",
+		"/Users/me/Sites/fxsdesk/app/View/Elements/staff.dashboard.left.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Users/dashboard.ctp",
+		"/Users/me/Sites/resources/Usermgmt/webroot/css/umstyle.css",
+		"/Users/me/Sites/fxsdesk/resources/flat-responsive-admin-template/html/layouts-fixed-topside.html",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Elements/dashboard.ctp",
+		"/Users/me/Sites/fxsdesk/app/webroot/css/style.css",
+		"/Users/me/Sites/fxsdesk/.gitignore",
+		"/Users/me/Sites/fxsdesk/resources/flat-responsive-admin-template/html/tables-basic.html",
+		"/Users/me/Sites/fxsdesk/resources/flat-responsive-admin-template/html/more-error.html",
+		"/Users/me/Sites/fxsdesk/resources/flat-responsive-admin-template/html/more-login.html",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/7B8C200D-05EE-4CC2-8E0F-25A8E35A9BBE/index.html",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/F8004377-5391-433D-83AA-1B10BFB6DC8B/index.html",
+		"/Users/me/Sites/fxsdesk/app/Controller/TradersController.php",
+		"/Users/me/Sites/fxsdesk/app/Controller/PartnersController.php",
+		"/Users/me/Sites/fxsdesk/app/webroot/css/themes.css",
+		"/Users/me/Sites/fxsdesk/app/View/Desks/refreshpassword.ctp",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/45F7899F-98FD-41A0-8E06-A0B36F2F3739/index.html",
+		"/Users/me/Downloads/theme-custom.css",
+		"/Users/me/Sites/fxsdesk/Boxfile",
+		"/Users/me/Sites/resources/themeforest-4354008-flat-responsive-admin-template/html/index.html",
+		"/Users/me/Sites/fxsdesk/app/Config/email.php",
+		"/Users/me/Sites/fxsdesk/app/Config/database.php.pagoda",
+		"/Users/me/Sites/fxsdesk/README.md",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Contents/add_page.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Contents/edit_page.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/UserEmailSignatures/add.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/UserEmailSignatures/edit.ctp",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/View/Helper/CkeditorHelper.php",
+		"/Users/me/Sites/fxsdesk/app/Config/database.php",
+		"/Users/me/Sites/fxsdesk/app/Controller/AppController.php",
+		"/Users/me/Sites/fxsdesk/app/Plugin/Usermgmt/Controller/ContentsController.php",
+		"/Users/me/Sites/resources/themeforest-4354008-flat-responsive-admin-template/html/more-login.html",
+		"/Users/me/Sites/fxsdesk/app/Config/bootstrap.php",
+		"/Users/me/Sites/fxsdesk/app/View/Pages/cake.ctp",
+		"/Users/me/Sites/fxsdesk/app/Config/core.php",
+		"/Users/me/Sites/fxsdesk/app/Console/Command/SecurityGenShell.php",
+		"/Users/me/Sites/fxsdesk/app/Config/Schema/schema.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lv-bootstrap/app/database/seeds/CatsTableSeeder.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel/app/config/local/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel/bootstrap/start.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel/app/database/migrations/2013_07_08_061930_create_users_table.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel/app/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel/app/config/app.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel4/composer.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/laravel4/bootstrap/start.php",
+		"/Users/me/Sites/laravel/app/config/local/mail.php",
+		"/Users/me/Sites/laravel/app/config/local/app.php",
+		"/Users/me/Sites/laravel/bootstrap/start.php",
+		"/Users/me/Sites/laravel/app/config/local/database.php",
+		"/Users/me/Sites/ikweb/app/filters.php",
+		"/Users/me/Sites/ikweb/app/routes.php",
+		"/Users/me/Sites/ikweb/app/views/login.php",
+		"/Users/me/Sites/ikweb/app/models/User.php",
+		"/Users/me/Sites/ikweb/app/database/seeds/UserTableSeeder.php",
+		"/Users/me/Sites/ikweb/app/database/migrations/2013_07_06_071939_create_users_table.php",
+		"/Users/me/Sites/fxsweb/app/config/local/mail.php",
+		"/Users/me/Sites/fxsweb/bootstrap/start.php",
+		"/Users/me/Sites/fxsweb/app/config/local/app.php",
+		"/Users/me/Sites/fxsweb/app/config/local/database.php",
+		"/Users/me/Sites/ikweb/app/config/database.php",
+		"/Users/me/Sites/fxscab/public/site/views/_partials/navigation.blade.php",
+		"/Users/me/Sites/fxscab/public/site/views/_partials/header.blade.php",
+		"/Users/me/Sites/fxscab/app/views/admin/_partials/navigation.blade.php",
+		"/Users/me/Sites/fxscab/app/controllers/admin/ArticlesController.php",
+		"/Users/me/Sites/fxscab/public/site/SiteServiceProvider.php",
+		"/Users/me/Sites/fxscab/app/config/app.php",
+		"/Users/me/Sites/fxscab/app/controllers/AccountController.php",
+		"/Users/me/Sites/fxscab/app/database/migrations/2013_07_06_031056_create_posts_table.php",
+		"/Users/me/Sites/fxscab/public/site/views/index.blade.php",
+		"/Users/me/Sites/fxscab/app/database/seeds/ContentSeeder.php",
+		"/Users/me/Sites/fxscab/public/site/routes.php",
+		"/Users/me/Sites/fxscab/app/views/admin/_partials/assets.blade.php",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/D7E9E735-5395-421F-BA8F-C0966887A0A2/actions.php",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/9875FB93-FFDB-4CCA-8B7D-43D3A9596335/mt4manager.php",
+		"/Users/me/Library/Caches/Cleanup At Startup/Transmit/5E8CE6C8-96B4-45AE-A1B4-47C3D817C50E/datatables.php",
+		"/Users/me/Sites/fxscab/app/routes.php",
+		"/Users/me/Sites/fxscab/public/site/views/page.blade.php",
+		"/Users/me/Sites/fxscab/composer.json",
+		"/Users/me/Sites/fxscab/public/site/views/articles.blade.php",
+		"/Users/me/Sites/fxscab/public/site/views/article.blade.php",
+		"/Users/me/Sites/fxscab/app/views/admin/pages/create.blade.php",
+		"/Users/me/Sites/fxscab/app/views/admin/pages/edit.blade.php",
+		"/Users/me/Sites/fxscab/app/views/admin/pages/index.blade.php",
+		"/Users/me/Sites/fxscab/public/assets/js/script.js",
+		"/Users/me/Sites/fxscab/app/controllers/admin/PagesController.php",
+		"/Users/me/Sites/fxscab/public/site/views/_partials/footer.blade.php",
+		"/Users/me/Sites/fxscab/app/services/validators/ArticleValidator.php",
+		"/Users/me/Sites/fxscab/app/services/validators/PageValidator.php",
+		"/Users/me/Sites/fxscab/app/services/validators/Validator.php",
+		"/Users/me/Sites/fxscab/app/database/seeds/DatabaseSeeder.php",
+		"/Users/me/Sites/fxscab/app/models/Article.php",
+		"/Users/me/Sites/fxscab/app/models/Page.php",
+		"/Users/me/Sites/fxscab/app/models/User.php",
+		"/Users/me/Sites/fxscab/app/commands/AppRefreshCommand.php",
+		"/Users/me/Sites/fxscab/app/views/admin/_layouts/default.blade.php",
+		"/Users/me/Sites/fxscab/app/views/admin/auth/login.blade.php",
+		"/Users/me/Sites/fxscab/app/controllers/admin/AuthController.php",
+		"/Users/me/Sites/fxscab/app/filters.php",
+		"/Users/me/Sites/fxscab/app/database/seeds/SentrySeeder.php",
+		"/Users/me/Sites/fxscab/app/config/database.php",
+		"/Users/me/Sites/fxscab/app/database/migrations/2013_07_05_083823_create_articles_table.php",
+		"/Users/me/Sites/fxscab/app/database/migrations/2013_07_05_083840_create_pages_table.php",
+		"/Users/me/Sites/l4_site/composer.json",
+		"/Users/me/Sites/laravel-master/app/config/session.php",
+		"/Users/me/Sites/laravel-master/composer.json",
+		"/Users/me/Sites/laravel-master/app/config/app.php",
+		"/Users/me/Sites/laravel-master/app/config/packages/frozennode/administrator/administrator.php",
+		"/Users/me/Sites/fxsdesk/composer.json",
+		"/Users/me/Sites/fxsdesk/app/orchestra.php",
+		"/Users/me/Sites/fxsdesk/app/database/migrations/2013_07_04_120810_seed_fxsdesk_acls.php",
+		"/Users/me/Sites/fxsdesk/app/controllers/admin/HomeController.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			"<open files>,/Users/me/Sites/fxsdesk",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$this->layout = 'login';",
+			"messageHolder",
+			"$this->layout = ",
+			"brand",
+			"layout",
+			"red",
+			"tiny_mce",
+			"country",
+			"Flex36",
+			"Flex69",
+			"WebForms",
+			"name=\"country\"",
+			"app/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$this->layout = 'access';",
+			"Flex09",
+			"Flex88",
+			"/var/www/app/"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/me/Sites/cloudcampus"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 557.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/fxsdesk/resources/fxsdesk.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
