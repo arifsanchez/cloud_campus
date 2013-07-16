@@ -1,11 +1,13 @@
 <?php
+
+define("DB_HOST", $_SERVER['DB1_HOST']);
+define("DB_NAME", $_SERVER['DB1_NAME']);
+define("DB_USER", $_SERVER['DB1_USER']);
+define("DB_PASS", $_SERVER['DB1_PASS']);
+define("DB_PORT", $_SERVER['DB1_PORT']);
+ 
 class DATABASE_CONFIG {
-
-	define("DB_HOST", $_SERVER['DB1_HOST']);
-	define("DB_NAME", $_SERVER['DB1_NAME']);
-	define("DB_USER", $_SERVER['DB1_USER']);
-	define("DB_PASS", $_SERVER['DB1_PASS']);
-
+ 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
@@ -14,7 +16,6 @@ class DATABASE_CONFIG {
 		'password' => DB_PASS,
 		'database' => DB_NAME,
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'port' => DB_PORT,
 	);
-
 }
