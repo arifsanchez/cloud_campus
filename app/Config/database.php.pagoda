@@ -7,15 +7,16 @@ define("DB_PASS", $_SERVER['DB1_PASS']);
 define("DB_PORT", $_SERVER['DB1_PORT']);
  
 class DATABASE_CONFIG {
- 
+
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
+		'host' => 'tunnel.pagodabox.com',
 		'login' => 'tish',
 		'password' => 'yUEw2u8k',
 		'database' => 'cloudcampus-db1',
 		'prefix' => '',
-		#'port' => DB_PORT,
+		'port' => '3306'
+		//'encoding' => 'utf8',
 	);
 }
