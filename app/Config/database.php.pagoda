@@ -11,11 +11,11 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => DB_HOST,
-		'login' => DB_USER,
-		'password' => DB_PASS,
-		'database' => DB_NAME,
+		'host' => 'localhost',
+		'login' => 'tish',
+		'password' => 'yUEw2u8k',
+		'database' => 'cloudcampus-db1',
 		'prefix' => '',
-		'port' => DB_PORT,
+		#'port' => DB_PORT,
 	);
 }
