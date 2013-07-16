@@ -1,21 +1,47 @@
-# User specific & automatically generated files #
-#################################################
-/app/Config/database.php
-/app/tmp
-/lib/Cake/Console/Templates/skel/tmp/
-/plugins
-/vendors
-/build
-/dist
-/tags
 
-# OS generated files #
-######################
+# MAC
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
+ 
+# Windows
 Thumbs.db
+
+#Avoid sending local dev db config
+/app/Config/database.php
+
+# Cake TMP Dirs
+/app/tmp/*
+!/app/tmp/
+ 
+/app/tmp/cache/*
+!/app/tmp/cache/
+!/app/tmp/cache/empty
+ 
+/app/tmp/cache/models/*
+!/app/tmp/cache/models/
+!/app/tmp/cache/models/empty
+ 
+/app/tmp/cache/persistent/*
+!/app/tmp/cache/persistent/
+!/app/tmp/cache/persistent/empty
+ 
+/app/tmp/cache/views/*
+!/app/tmp/cache/views/
+!/app/tmp/cache/views/empty
+ 
+/app/tmp/logs/*
+!/app/tmp/logs/
+!/app/tmp/logs/empty
+ 
+/app/tmp/sessions/*
+!/app/tmp/sessions/
+!/app/tmp/sessions/empty
+ 
+/app/tmp/tests/*
+!/app/tmp/tests/
+!/app/tmp/tests/empty
+
+# Image Folder
+!/app/webroot/*
+!/app/webroot/img/*
+/app/webroot/img/publics/*
+/app/webroot/img/publics/gcache/*

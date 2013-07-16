@@ -6,4 +6,4 @@
 	url = https://github.com/cakephp/debug_kit.git
 [submodule "app/Plugin/Usermgmt"]
 	path = app/Plugin/Usermgmt
-	url = https://github.com/arifsanchez/usermanagement_plugin.git
+	url = git@github.com:arifsanchez/usermanagement_plugin.git
