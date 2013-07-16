@@ -1,0 +1,36 @@
+# vim: set ft=yaml expandtab tabstop=2 shiftwidth=2 softtabstop=2:
+web1:
+  name: cloudcampus1
+  php_version: 5.4.14
+  document_root: /app/webroot
+  shared_writable_dirs:
+    - app/tmp
+    - app/tmp/cache
+    - app/tmp/cache/models
+    - app/tmp/cache/persistent
+    - app/tmp/cache/views
+    - app/tmp/logs
+    - app/tmp/sessions
+    - app/tmp/tests
+    - app/webroot/img/publics
+    - app/webroot/img/publics/gcache
+  php_extensions:
+    - mcrypt
+    - mbstring
+    - pdo_mysql
+    - apc
+    - curl
+  after_build:
+    - "mv app/Config/database.php.pagoda app/Config/database.php"
+    - "mv app/Config/core.php.pagoda app/Config/core.php"
+  before_deploy:
+    - "mkdir -p app/tmp/cache/models"
+    - "mkdir -p app/tmp/cache/persistent"
+    - "mkdir -p app/tmp/cache/views"
+    - "mkdir -p app/tmp/logs"
+    - "mkdir -p app/tmp/sessions"
+    - "mkdir -p app/tmp/tests"
+  php_zlib_output_compression: On
+db1:
+  name: cloudcampus-db1
+  type: mysql  

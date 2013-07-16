@@ -1,0 +1,15 @@
+<?php
+class DATABASE_CONFIG {
+
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => '',
+		'password' => '',
+		'database' => 'cloudcampus-db1',
+		'prefix' => '',
+		//'encoding' => 'utf8',
+	);
+
+}
