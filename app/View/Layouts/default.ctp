@@ -9,6 +9,22 @@
 	</script>
 	<?php
 		echo $this->Html->meta('icon');
+
+		echo $this->Html->meta(
+		    'Author',
+		    'MM Arif MZ'
+		);
+
+		echo $this->Html->meta(
+		    'description',
+		    'CloudCampus is a cloud based application to manage business data for university , college, school and kindergarden.'
+		);
+
+		echo $this->Html->meta(
+		    'keywords',
+		    'cloud campus, cloud campus management system, cloud solution, cloud management system'
+		);
+
 		/* Bootstrap CSS */
 		#echo $this->Html->css('bootstrap.css?q='.QRDN); // default bootstrap theme
 		echo $this->Html->css('bootstrap.bluewave.css?q='.QRDN); // blue + white theme
@@ -43,22 +59,6 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-
-		echo $this->Html->meta(
-		    'keywords',
-		    'cloud campus, cloud campus management system, cloud solution, cloud management system'
-		);
-
-		echo $this->Html->meta(
-		    'descriptions',
-		    'Cloud Campus is a cloud based application to manage business data for university , college, school and kindergarden.'
-		);
-
-		echo $this->Html->meta(
-		    'author',
-		    'Mior Mohd Arif Mior Zamri'
-		);
-
 	?>
 </head>
 <body>
