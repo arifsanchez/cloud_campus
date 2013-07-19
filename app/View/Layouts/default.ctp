@@ -11,11 +11,6 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->meta(
-		    'Author',
-		    'MM Arif MZ'
-		);
-
-		echo $this->Html->meta(
 		    'description',
 		    'CloudCampus is a cloud based application to manage business data for university , college, school and kindergarden.'
 		);
